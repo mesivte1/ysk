@@ -1,0 +1,38 @@
+body {
+    background-image: url('./background-image.jpg');
+}
+
+.nav {
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding-right: 700px;
+}
+
+i {
+    color: white;
+    font-size: large;
+}
+.split {
+    float: right;
+ 
+}
+
+a {
+    color: white;
+}
+a :hover {
+    color: darkblue;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 800px;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 5px;
+}
