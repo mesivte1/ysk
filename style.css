@@ -1,36 +1,74 @@
 body {
     background-image: url('./background-image.jpg');
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-family:Arial, Helvetica, sans-serif;
 }
-
-.nav {
-    color: white;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    padding-right: 700px;
-}
-
-i {
-    color: white;
-    font-size: large;
-}
-.split {
-    float: right;
- 
+li {
+    list-style: none;
+    padding: 0 0.75em;
 }
 
 a {
+    text-decoration: none;
+    color: white;
+    padding: 0.25em 0.75em;
+    font-weight: 600;
+}
+a :hover,
+:focus {
+    color: gray;
+}
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
     color: white;
 }
-a :hover {
-    color: darkblue;
+#nav-tools :hover  {
+    color: gray;
+}
+#nav-left,
+#nav-tools,
+#nav-right {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-right: 0;
+    padding: 0.25em 0;
+}
+#nav-left {
+    padding: 0 0.75em;
+}
+#nav-tools {
+    margin-left: 0;
+    padding-left: 0.5em;
+}
+#nav-right {
+    justify-content: flex-end;
+    /*padding-right: 0 0.25em;*/
+    padding: 0.25em 0.75em;
+}
+#apple-icon {
+    padding: 0 0.75em;
 }
 
+main {
+    height: 85vh;
+}
 .footer {
     display: flex;
-    justify-content: space-between;
-    padding-top: 800px;
+    flex-direction: row;
+    justify-content: center;
+    /* padding-top: 800px; */
+    /* align-items: flex-end !important; */
     border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.733);
+    margin: 0 1em;
+    padding: 0.15em;
 }
 
 img {
